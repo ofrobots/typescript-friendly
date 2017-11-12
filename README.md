@@ -10,6 +10,6 @@ This chrome extension annotates the npm package pages with a
 
 |Indicator|Explanation   |
 |---|---|
-|😍| Types shipped with the module itself. This means that the types are maintained by the package author(s). |
-|😊| 3rd party types available via a `@types/` package. |
+|😍| Types shipped with the module itself. This means that the types are maintained by the package author(s). This is awesome! |
+|😊| 3rd party types available via a `@types/` package. This nice! The types can potentially be out of date though. |
 |🤷| No 1st party or 3rd party types available.  |
