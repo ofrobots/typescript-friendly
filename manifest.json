@@ -18,6 +18,7 @@
   ],
   "permissions": [
     "https://registry.npmjs.org/*",
+    "https://registry.npmjs.com/*",
     "https://www.npmjs.com/*"
   ]
 }
