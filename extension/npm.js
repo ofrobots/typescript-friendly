@@ -22,7 +22,7 @@ async function init() {
     const latestManifest = manifest.versions[latestVersion];
 
     let friendliness = '🤷';
-    if (latestManifest.types) {
+    if (latestManifest.types || latestManifest.typings) {
       friendliness = '😍';
     } else {
       // Perhaps there is a @types/ package for this module.
