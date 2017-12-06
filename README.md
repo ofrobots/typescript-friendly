@@ -1,4 +1,4 @@
-# npm typescript friendliness chrome extension
+# npm typescript friendliness extension for Chrome and Firefox
 
 As a typescript user, it is really nice to know whether types for a given
 package are available.
@@ -16,4 +16,6 @@ This chrome extension annotates the npm package pages with a
 
 ## Installation
 
-Install from [chrome web store](https://chrome.google.com/webstore/detail/typescript-friendly/bobgngeadaljeacddbgefcfhhdopmpnc).
+**Chrome:** Install from [chrome web store](https://chrome.google.com/webstore/detail/typescript-friendly/bobgngeadaljeacddbgefcfhhdopmpnc).
+
+**Firefox:** Install add-on: https://addons.mozilla.org/en-US/firefox/addon/typescript-friendly
