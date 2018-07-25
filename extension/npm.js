@@ -34,10 +34,14 @@ async function init() {
       }
     }
 
-    const box0 = document.getElementsByClassName('box')[0];
-    const node = document.createElement('li');
-    const textNode = document.createTextNode(`TypeScript Friendliness: ${friendliness}`);
-    box0.appendChild(textNode);
+    const textNode = document.createTextNode(`TS Friendliness: ${friendliness}`);
+    // const box0 = document.getElementsByClassName('package__sidebar')[0];
+    // box0.appendChild(textNode);
+    const matches = document.querySelectorAll('div[class^="package__rightSidebar__"');
+    if (matches.length === 1) {
+      const sideBar = matches[0];
+      sideBar.appendChild(textNode);
+    }
   } else {
     console.log('fetch response was not ok');
   }
