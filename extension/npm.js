@@ -35,8 +35,6 @@ async function init() {
     }
 
     const textNode = document.createTextNode(`TS Friendliness: ${friendliness}`);
-    // const box0 = document.getElementsByClassName('package__sidebar')[0];
-    // box0.appendChild(textNode);
     const matches = document.querySelectorAll('div[class^="package__rightSidebar__"');
     if (matches.length === 1) {
       const sideBar = matches[0];
