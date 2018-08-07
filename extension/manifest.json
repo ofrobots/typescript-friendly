@@ -3,7 +3,7 @@
 
   "name": "TypeScript Friendly",
   "description": "Annotates npm website with information about how TypeScript-friendly a package is.",
-  "version": "1.1",
+  "version": "1.2",
 
   "content_scripts": [
     {
